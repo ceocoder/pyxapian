@@ -16,5 +16,7 @@ as any version that people ask for (within reason).
 
 To install via pip:
 
-    $ pip install git://github.com/davisp/pyxapian.git@v1.0.23#egg=xapian
+    $ pip install -e git://github.com/davisp/pyxapian.git@v1.0.23#egg=xapian
 
+For the URL scheme you can replace git with git+http or git+ssh to use
+the alternative transports.
